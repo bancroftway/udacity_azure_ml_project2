@@ -45,7 +45,7 @@ e. In Jupyter Notebook, showing that the "Use RunDetails Widget" shows the step 
 f. In ML studio showing the scheduled run ![Pipeline Run](./screenshots/s11f.png)
 
 ## Screen Recording
-https://youtu.be/kHrhxt233d0
+https://youtu.be/zEQeMtZs7iU
 
 ## Improvements
 In order to improve the model, we could employ deep learning, or increase the training time. Also, we note that the dataset is unbalanced i.e. there are far more 'no' values for the target 'y' column than there are 'yes' values. Additionally, the model could be improved by using multiple metrics instead of just one metric 'Accuracy'.
