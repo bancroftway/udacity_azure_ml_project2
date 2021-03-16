@@ -12,7 +12,7 @@ The models are deployed through Azure Container Instance, and the REST api is se
 The Bank Marketing dataset is registered dataset, which can be used both directly in AutoML or in the Pipeline. An Azure AutoML model is trained, and deployed, and then this process is also further automated using a pipeline. The Pipeline takes care of finding or creating the registered dataset, and finding or creating the compute cluster, kicking off the AutoML experiment, retrieve the best model and deploy the model to a REST endpoint, through Azure Container Instance. Additionally, the model is secured using key based authentication, and logs output through Azure App Insights. Consumers of the model can interact with it using the REST endpoints. The Pipeline itself can be kicked off using a REST endpoint.
 
 ## Key Steps
-1. We have registered the dataset in ML Studio. ![Image of Registered Dataset](../screenshots/s1.PNG)
+1. We have registered the dataset in ML Studio. ![Image of Registered Dataset](./screenshots/s1.png)
 
 2. Run AutoML experiment on compute cluster (classification with best model measured by accuracy metric). ![Completed Experiment](../screenshots/s2.PNG)
 
