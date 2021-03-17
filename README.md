@@ -22,7 +22,8 @@ The Bank Marketing dataset is registered dataset, which can be used both directl
 
 5. Enable logging (Application Insights) and view logs. ![Logging and insights](./screenshots/s5.png)
 
-6. Download swagger.json from the deployed model endpoint, and display SwaggerUI locally, which shows the API methods available. ![Swagger](./screenshots/s6.png)
+6. Download swagger.json from the deployed model endpoint, and display SwaggerUI locally, which shows the API methods available. ![Swagger Image 1](./screenshots/s6.png)
+![Swagger Image 2](./screenshots/s6a.png)
 
 7. Using the deployed model endpoint, use the scoring endpoint. ![Endpoint](./screenshots/s7.png)
 
